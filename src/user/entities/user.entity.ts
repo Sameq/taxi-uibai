@@ -17,3 +17,4 @@ export class User {
     @Column({name: "NUMBER_PHONE", type: "varchar", length: 15, nullable: false, unique: true})
     numberPhone: string;
 }
+
